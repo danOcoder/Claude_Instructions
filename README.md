@@ -147,7 +147,8 @@ The filesystem server takes one argument per folder Claude may read; list the on
 | Switch scope                                    | Edit the `@` line in `projects/<name>/ACTIVE_SCOPE.md`. Nothing else moves                 |
 | Work with no scope                              | Delete that `@` line. Everything above still loads                                   |
 | Start a scope                                   | `cp projects/_TEMPLATE/scopes/_TEMPLATE.md projects/<name>/scopes/<TICKET>-name.md`, fill what applies, delete the rest |
-| Close a scope                                   | Promote anything durable, then delete the file                                       |
+| Close a scope                                   | Promote anything durable, then delete the scope doc and its action plans             |
+| Start an action plan                            | `projects/<name>/scopes/<Scope>.action-plan.md`, next to the scope doc               |
 | Add a fact the team needs                       | `projects/<name>/PROJECT.md` — only if it outlives the ticket                        |
 | Add a fact only true for you                    | `projects/<name>/PERSONAL.md`                                                        |
 | Add a rule about how you work                   | `CLAUDE.md` — only if it's true in every repo                                        |
