@@ -1,0 +1,3 @@
+projects/*
+!projects/_TEMPLATE/
+EXTRACTION_INVENTORY.md
